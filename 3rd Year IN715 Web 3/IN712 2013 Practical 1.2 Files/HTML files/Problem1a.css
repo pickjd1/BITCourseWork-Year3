@@ -1,0 +1,41 @@
+body
+{
+	text-align:center;
+}
+
+.divs
+{
+	border:1px solid black;
+	margin:1%;
+	width:30%;
+	height:40%;
+	padding: 5%;
+	border-radius:15px;
+	box-shadow: 5px 5px 3px #333;
+}
+
+#div1
+{
+	background-color:#1A3380;
+	color:white;
+}
+#div2
+{
+	background-color:#1F3D99;
+	color:white;
+}
+#div3
+{
+	background-color:#2952CC;
+	color:white;
+}
+#div4
+{
+	background-color:#85E0FF;
+	color:black;
+}
+#div5
+{
+	background-color:#FFFFFF;
+	color:black;
+}

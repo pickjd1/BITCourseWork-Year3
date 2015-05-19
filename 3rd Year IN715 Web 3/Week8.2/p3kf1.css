@@ -1,0 +1,46 @@
+#kf1
+{
+	width:50px;
+	height: 50px;
+	background-color:red;
+	position:relative;
+	-webkit-animation: moveSquare 5s ease 0s 5 normal;
+}
+
+@-webkit-keyframes moveSquare
+{
+	0% 
+	{
+		top:0px;
+		left:0px;
+		background:red;
+	}
+	
+	25%
+	{
+		top:0px;
+		left:200px;
+		background:green;
+	}
+	
+	50% 
+	{
+		top:200px;
+		left:200px;
+		background:yellow;
+	}
+	
+	75% 
+	{
+		top:200px;
+		left:0px;
+		background:blue;
+	}
+	
+	100% 
+	{
+		top:0;
+		left:0px;
+		background:red;
+	}
+}

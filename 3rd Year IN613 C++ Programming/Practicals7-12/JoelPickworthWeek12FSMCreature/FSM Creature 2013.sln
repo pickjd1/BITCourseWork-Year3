@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FSM Creature 2013", "FSM Creature 2013\FSM Creature 2013.vcproj", "{9DD3D532-2C8C-422A-81B2-A23885E4509D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9DD3D532-2C8C-422A-81B2-A23885E4509D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9DD3D532-2C8C-422A-81B2-A23885E4509D}.Debug|Win32.Build.0 = Debug|Win32
+		{9DD3D532-2C8C-422A-81B2-A23885E4509D}.Release|Win32.ActiveCfg = Release|Win32
+		{9DD3D532-2C8C-422A-81B2-A23885E4509D}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

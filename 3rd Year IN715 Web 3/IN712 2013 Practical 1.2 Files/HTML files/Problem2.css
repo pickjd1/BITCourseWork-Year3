@@ -1,0 +1,38 @@
+body
+{
+	
+}
+
+img
+{
+	position:absolute;
+	top:20%;
+	left:21%;
+	z-index:-2;
+}
+
+#alertBox
+{
+	width:300px;
+	height:100px;
+	position:absolute;
+	top:30%;
+	left:15%;
+	border: 1px solid white;
+	border-radius:50px;
+	background-color:#D11919;
+	opacity:0.7;
+	z-index:-1;
+}
+
+#alertText
+{
+	font-size:24px;
+	width:300px;
+	height:100px;
+	color:white;
+	position:absolute;
+	top:34%;
+	left:15.5%;
+	z-index:1;
+}

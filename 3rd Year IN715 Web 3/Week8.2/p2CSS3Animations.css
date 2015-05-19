@@ -1,0 +1,106 @@
+#wrapper
+{
+	
+}
+
+#transformDemo
+{
+	width:200px;
+	height:200px;
+	margin-top:100px;
+	margin-left:20%;
+	position: absolute;
+	border: 1px solid darkgreen;
+	background-color:lightgreen;
+	-webkit-transition: all 4s ease 0s;
+}
+
+#transformDemo:hover
+{
+	-webkit-transform: skew(20deg,45deg);
+}
+
+#multipleTransition
+{
+	width:200px;
+	height:200px;
+	margin-top:100px;
+	margin-left:60%;
+	position: absolute;
+	border: 1px solid darkgreen;
+	background-color:lime;
+	-webkit-transition: all 4s ease 0s;
+}
+
+#multipleTransition:hover
+{
+	-webkit-transform:scale(1.5,1.5);
+	background-color: purple;
+	border-radius: 100px;
+}
+
+#textAnimation
+{
+	margin-top:500px;
+	margin-left:45%;
+	color:darkgray;
+	position: absolute;
+	font-family:Calibri;
+	-webkit-transition: all 4s ease 0s;
+	text-align:center;
+}
+
+#textAnimation:hover
+{
+	-webkit-transform:rotate(360deg);
+	font-size:6em;
+	color: goldenrod;
+	text-shadow: 3px 3px 5px black;
+}
+
+#delayDemo div
+{
+	margin-top:700px;
+	margin-left:40%;
+	top:0;
+	left:0;
+	position:absolute;
+	width:100px;
+	height:100px;
+	border-radius:100px;
+	background-color:darkgray;
+	-webkit-transition: all 4s ease-in-out 0s;
+}
+
+#delayDemo:hover #delayDemo1
+{
+	-webkit-transform: translate(-100px,-100px);
+	-webkit-transition-delay:0s;
+	background-color: red;
+}
+
+#delayDemo:hover #delayDemo2
+{
+	-webkit-transform: translate(100px,-100px);
+	-webkit-transition-delay:1s;
+	background-color: darkblue;
+}
+
+#delayDemo:hover #delayDemo3
+{
+	-webkit-transform: translate(100px,100px);
+	-webkit-transition-delay:2s;
+	background-color: goldenrod;
+}
+
+#delayDemo:hover #delayDemo4
+{
+	-webkit-transform: translate(-100px,100px);
+	-webkit-transition-delay:3s;
+	background-color: lightgreen;
+}
+
+
+
+
+
